@@ -1,0 +1,34 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  background: transparent !important;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  z-index: 1000;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+.hero-banner {
+  height: 900px;
+  background: url("images/images-50-06209-2025PD1492904773831987044/50-06209-2025PD.1212434_C6.jpg") center 15%/cover no-repeat;
+}
+
+.full-image {
+  height: 800px;
+  background: url("images/images-50-06209-2025PD1492904773831987044/50-06209-2025PD.1212441_C3.jpg") center center / cover no-repeat;
+  border-radius: 5px;
+}
+
+.section-image {
+  max-height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.site-footer {
+  background-color: gray; /* modern dark blue */
+  color: white;
+}
