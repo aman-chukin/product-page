@@ -6,19 +6,23 @@
   z-index: 1000;
 }
 
-.navbar .nav-link,
-.navbar .navbar-brand {
+.navbar .nav-link {
   color: white !important;
+  padding: 0.5rem 1rem;
 }
 
 .hero-banner {
   height: 900px;
-  background: url("images/images-50-06209-2025PD1492904773831987044/50-06209-2025PD.1212434_C6.jpg") center 15%/cover no-repeat;
+  background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("images/images-50-06209-2025PD1492904773831987044/50-06209-2025PD.1212434_C6.jpg") center 15%/cover no-repeat;
 }
 
 .full-image {
-  height: 800px;
-  background: url("images/images-50-06209-2025PD1492904773831987044/50-06209-2025PD.1212441_C3.jpg") center center / cover no-repeat;
+  height: 700px;
+  background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("images/images-50-06209-2025PD1492904773831987044/50-06209-2025PD.1212441_C3.jpg") center center / cover no-repeat;
   border-radius: 5px;
 }
 
@@ -29,6 +33,18 @@
 }
 
 .site-footer {
-  background-color: gray; /* modern dark blue */
+  background-color: gray;
   color: white;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.full-image-2 {
+  height: 500px;
+  background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("images/images-50-06209-2025PD1492904773831987044/50-06209-2025PD.1212461_C3.jpg") center 18% / cover no-repeat;
+  border-radius: 5px;
 }
